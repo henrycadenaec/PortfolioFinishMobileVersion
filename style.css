@@ -8,3 +8,160 @@ html {
 *::before {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h3 {
+  margin: 0;
+}
+
+/* Elements of Burger */
+
+/* ------------------------------------------------- */
+.container-burger {
+  position: relative;
+  width: 16px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.burger1 {
+  position: absolute;
+  top: 29.17%;
+  bottom: 70.83%;
+  left: 16.67%;
+  right: 16.67%;
+  width: 16px;
+  height: 2px;
+  background-color: #6070ff;
+  border-radius: 1px;
+}
+
+.burger2 {
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  left: 16.67%;
+  right: 16.67%;
+  width: 16px;
+  height: 2px;
+  background-color: #6070ff;
+  border-radius: 1px;
+}
+
+.burger3 {
+  position: absolute;
+  top: 70.83%;
+  bottom: 29.17%;
+  left: 16.67%;
+  right: 16.67%;
+  width: 16px;
+  height: 2px;
+  background-color: #6070ff;
+  border-radius: 1px;
+}
+
+/* Header */
+
+header {
+  margin-left: 24px;
+  margin-right: 24px;
+  flex-grow: 0;
+}
+
+.container-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-top: 3.625rem;
+  padding-bottom: 1.5rem;
+}
+
+header a {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  line-height: 20px;
+  color: #6070ff;
+  text-decoration: none;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+
+main div {
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.container-main {
+  background-image: url(assets/background-mobile-version.svg);
+  background-position: -34px 0%;
+  background-size: 462px 587.15px;
+  background-repeat: no-repeat;
+}
+
+h1 {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+p {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.bolder {
+  font-weight: 500;
+  color: #7f8cff;
+}
+
+.container-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 19.1px;
+}
+
+.container-icons img {
+  width: 16px;
+}
+
+.container-icons a:hover {
+  transform: scale(1.2);
+}
+
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .container-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 3.625rem;
+    padding-bottom: 1.5rem;
+  }
+}

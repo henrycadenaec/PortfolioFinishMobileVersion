@@ -140,12 +140,12 @@ main {
 /* -------------------------- Works -------------------------- */
 
 .grid {
-  padding-top: 15vh;
-  padding-bottom: 15vh;
+  padding-top: 114px;
+  padding-bottom: 114px;
   display: grid;
   grid-template-columns: 100%;
   grid-template-rows: auto;
-  row-gap: 13vw;
+  row-gap: 88px;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -157,7 +157,6 @@ main {
   padding-right: 1rem;
   border: 1px solid #dfe1e6;
   border-radius: 1rem 1rem 1rem 1rem;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -190,7 +189,7 @@ p {
   flex-direction: row;
   justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 12px;
 }
 
 .subtitle-card-container > h4 {
@@ -205,7 +204,13 @@ p {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  gap: 32px;
+  gap: 12px;
+}
+
+.icon-circle {
+  width: 8px;
+  height: 8px;
+  fill: #c1c7d0;
 }
 
 .ul-flex-features > li {
@@ -214,6 +219,7 @@ p {
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
+  list-style-type: none;
 }
 
 .ul-stack-flex {
@@ -276,6 +282,7 @@ a {
   padding-right: 1.5rem;
   width: 100%;
   height: auto;
+  color: #172b4d;
   display: flex;
   flex-direction: column;
   justify-content: center;

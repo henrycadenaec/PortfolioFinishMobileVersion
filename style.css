@@ -222,14 +222,16 @@ p {
   list-style-type: none;
 }
 
-.ul-stack-flex {
+/* .ul-stack-flex {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 8px;
-}
+} */
 
 .ul-stack-flex > li {
+  float: left;
+  margin-right: 8px;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;

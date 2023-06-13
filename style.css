@@ -453,3 +453,6 @@ a {
   font-size: 15px;
   line-height: 24px;
 }
+.contact-form textarea {
+  resize: none;
+}

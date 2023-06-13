@@ -372,3 +372,17 @@ a {
   list-style-type: none;
   padding-left: 0;
 }
+
+.h2-white {
+  color: #fff;
+}
+
+.about-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  margin-bottom: 52px;
+}

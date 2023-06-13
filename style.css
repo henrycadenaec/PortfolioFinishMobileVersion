@@ -372,3 +372,123 @@ a {
   list-style-type: none;
   padding-left: 0;
 }
+
+/* -------------------------- Contact Form -------------------------- */
+
+.contact {
+  background-color: #fff;
+}
+
+.background-contact {
+  background-color: #6070ff;
+  border-radius: 4rem 0 0 0;
+}
+
+.h2-white {
+  color: #fff;
+}
+
+.about-paragraph {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  margin-bottom: 52px;
+}
+
+.main-background-image-contact {
+  background-image: url(assets/ContactFormShapesMobile.svg);
+  background-position: top 21px right 0;
+  background-size: 61.6%;
+  background-repeat: no-repeat;
+}
+
+.main-background-setup-contact {
+  padding-top: 7.1875rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
+.contact-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}
+
+.contact-form > * {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.contact-form > *::placeholder {
+  color: #b3bac5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+.btn-enable-3 {
+  max-width: 142px;
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  color: #396df2;
+  background-color: #fff;
+  border: 1px solid #396df2;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+/* -------------------------- Footer -------------------------- */
+
+.footer-flex {
+  height: 34px;
+  width: 100%;
+  background-color: #6070ff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.micro {
+  height: 5px;
+  width: 134px;
+  margin-bottom: 8px;
+  border-radius: 10px;
+  background-color: #0d151e;
+}

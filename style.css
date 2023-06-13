@@ -419,3 +419,14 @@ a {
   color: #ebebff;
   margin-bottom: 52px;
 }
+
+.contact-form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 20px;
+}

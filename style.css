@@ -430,3 +430,26 @@ a {
   justify-content: flex-start;
   gap: 20px;
 }
+
+.contact-form > * {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 16px;
+  background: #fff;
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+}
+
+.contact-form > *::placeholder {
+  color: #b3bac5;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+}

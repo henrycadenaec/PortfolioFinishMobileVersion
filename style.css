@@ -373,6 +373,39 @@ a {
   padding-left: 0;
 }
 
+/* -------------------------- Contact Form -------------------------- */
+
+.contact {
+  background-color: #fff;
+}
+
+.background-contact {
+  background-color: #6070ff;
+  border-radius: 4rem 0 0 0;
+}
+
+.main-background-image-contact {
+  background-image: url(assets/ContactFormShapesMobile.svg);
+  background-position: top 21px right 0;
+  background-size: 61.6%;
+  background-repeat: no-repeat;
+}
+
+.main-background-setup-contact {
+  padding-top: 7.1875rem;
+  padding-bottom: 3rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  text-align: center;
+}
+
 .h2-white {
   color: #fff;
 }

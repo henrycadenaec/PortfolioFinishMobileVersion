@@ -471,6 +471,19 @@ p {
     text-align: center;
     margin-top: 14px;
   }
+
+  .btn-enable:hover {
+    color: #fff;
+    background-color: #6070ff;
+    border: 1px solid #6070ff;
+    box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  }
+
+  .btn-enable:focus {
+    color: #fff;
+    background-color: #2230d2;
+    border: 1px solid #2230d2;
+  }
 }
 
 .flex-row-reverse {
@@ -516,6 +529,39 @@ a {
   color: #396df2;
   background-color: #fff;
   border: 1px solid #396df2;
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-enable-2:hover {
+  min-width: 126px;
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+  background-color: #6070ff;
+  border: 1px solid #6070ff;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.btn-enable-2:focus {
+  min-width: 126px;
+  font-size: 1.0625rem;
+  line-height: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  color: #fff;
+  background-color: #2230d2;
+  border: 1px solid #2230d2;
   border-radius: 0.5rem;
   padding: 0.75rem;
   display: inline-block;

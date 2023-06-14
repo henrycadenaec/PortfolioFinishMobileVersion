@@ -590,6 +590,17 @@ a {
   padding-left: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .width-35 {
+    color: #172b4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .about {
     background-color: #fff;
@@ -824,6 +835,61 @@ a {
   display: inline-block;
   cursor: pointer;
   text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    display: none;
+  }
+
+  .background-contact {
+    background-color: #6070ff;
+    border-radius: 4rem 0 0 0;
+  }
+
+  .main-background-image-contact {
+    background-image: url(assets/ContactFormBackgroundDesktopVersion.svg);
+    background-position: 79.09px 75.34px;
+    background-size: 90%;
+    background-repeat: no-repeat;
+  }
+
+  .main-background-setup-contact {
+    padding-top: 8.875rem;
+    padding-bottom: 7.9375rem;
+    padding-left: 30.245vw;
+    padding-right: 30.245vw;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    text-align: center;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 27px;
+  }
+
+  .contact-form > * {
+    width: 447px;
+    border-radius: 0;
+  }
+
+  .about-paragraph {
+    margin-bottom: 24px;
+  }
+
+  .btn-enable-3 {
+    align-items: center;
+    border-radius: 8px;
+  }
 }
 
 /* -------------------------- Footer -------------------------- */

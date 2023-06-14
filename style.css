@@ -99,13 +99,6 @@ body {
   cursor: pointer;
 }
 
-.main-background-image {
-  background-image: url(assets/BackgroundMobileOriginal.svg);
-  background-position: -34px 0;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 @media screen and (max-width: 769px) {
   .menu-desktop {
     display: none;
@@ -151,6 +144,34 @@ body {
 
 /* -------------------------- Main -------------------------- */
 
+main {
+  background-color: #fff;
+  border-radius: 0 0 0 4rem;
+  min-height: 80vh;
+}
+
+.main-background-image {
+  background-image: url(assets/BackgroundMobileOriginal.svg);
+  background-position: -34px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.main-background-setup {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+  height: auto;
+  color: #172b4d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+}
+
 h1 {
   margin: 0;
   font-style: normal;
@@ -167,12 +188,6 @@ h4 {
   color: #7f8cff;
 }
 
-main {
-  background-color: #fff;
-  border-radius: 0 0 0 4rem;
-  min-height: 80vh;
-}
-
 .social-icons {
   height: 20px;
   width: auto;
@@ -184,6 +199,66 @@ main {
   justify-content: flex-start;
   flex-wrap: wrap;
   gap: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  main {
+    background-color: #fff;
+    border-radius: 0 0 0 8rem;
+    min-height: 846px;
+  }
+
+  .main-background-image {
+    background-image: url(assets/BackgroundDesktopVersion.svg);
+    background-position: 34.6px 48px;
+    background-size: 97%;
+    background-repeat: no-repeat;
+  }
+
+  .main-background-setup {
+    padding-top: 289px;
+    padding-bottom: 289px;
+    padding-left: 260px;
+    padding-right: 260px;
+    width: 100%;
+    height: auto;
+    color: #172b4d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .h1-title-mobile {
+    display: none;
+  }
+
+  h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #091e42;
+  }
+
+  .paragraph-main-desktop {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    padding-bottom: 12px;
+  }
+
+  .h4-main-desktop {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    padding-bottom: 2px;
+  }
 }
 
 /* -------------------------- Works -------------------------- */
@@ -322,21 +397,6 @@ a {
 .about {
   background-color: #fff;
   border-radius: 0 4rem 0 0;
-}
-
-.main-background-setup {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  width: 100%;
-  height: auto;
-  color: #172b4d;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
-  gap: 12px;
 }
 
 .btn-enable-2 {

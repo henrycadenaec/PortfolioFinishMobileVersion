@@ -406,6 +406,10 @@ a {
   text-align: center;
 }
 
+.h2-size-40 {
+  font-size: 40px;
+}
+
 .h2-white {
   color: #fff;
 }

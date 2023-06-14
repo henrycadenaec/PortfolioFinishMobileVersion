@@ -44,6 +44,12 @@ body {
   height: 17px;
 }
 
+@media screen and (min-width: 768px) {
+  .header-mobile {
+    display: none;
+  }
+}
+
 /* -------------------------- Header -------------------------- */
 
 .header {
@@ -98,6 +104,49 @@ body {
   background-position: -34px 0;
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 769px) {
+  .menu-desktop {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header {
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    padding-top: 1.625rem;
+    padding-bottom: 1.625rem;
+    padding-left: 8.9375rem;
+    padding-right: 8.9375rem;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .font-style-menu {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  .burger-container {
+    display: none;
+  }
+
+  .menu-container {
+    display: flex;
+    justify-content: flex-end;
+    gap: 32px;
+  }
+
+  .menu-container > li {
+    list-style: none;
+  }
 }
 
 /* -------------------------- Main -------------------------- */

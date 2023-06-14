@@ -263,7 +263,7 @@ h4 {
 
 /* -------------------------- Works -------------------------- */
 
-.grid {
+.grid-mobile {
   padding-top: 114px;
   padding-bottom: 114px;
   display: grid;
@@ -286,10 +286,6 @@ h4 {
   justify-content: flex-start;
   background-color: white;
   gap: 12px;
-}
-
-.work-image {
-  border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
 }
 
 h2 {
@@ -384,7 +380,120 @@ p {
   text-align: center;
 }
 
+@media screen and (max-width: 768px) {
+  .grid {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid-mobile {
+    display: none;
+  }
+
+  .grid {
+    padding-top: 142px;
+    padding-bottom: 142px;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+    row-gap: 142px;
+    margin-left: 142px;
+    margin-right: 142px;
+  }
+
+  .grid-desktop {
+    padding: 24px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    column-gap: 22px;
+  }
+
+  .work-img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.75rem 0.75rem 0.75rem 0.75rem;
+  }
+
+  .information-card-desktop {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+  }
+
+  .h2-text-style-works {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .h4-text-style-works {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .ul-flex-features > li {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+    list-style-type: none;
+  }
+
+  .paragraph-text-style-works {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .btn-enable {
+    max-width: 126px;
+    font-size: 17px;
+    line-height: 24px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    color: #396df2;
+    background-color: #fff;
+    border: 1px solid #396df2;
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-top: 14px;
+  }
+}
+
+.flex-row-reverse {
+  flex-direction: row-reverse;
+}
+
 /* -------------------------- About -------------------------- */
+
+.main-background-setup-about {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  width: 100%;
+  height: auto;
+  color: #172b4d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 12px;
+}
 
 a {
   font-size: 1.125rem;

@@ -21,35 +21,6 @@ body {
   background-color: #e5e5e5;
 }
 
-/* -------------------------- Header Mobile -------------------------- */
-
-.header-mobile {
-  height: 44px;
-  position: sticky;
-  padding-left: 12px;
-  padding-right: 12px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #fff;
-}
-
-.header-mobile-flex {
-  display: flex;
-  gap: 5.03px;
-}
-
-.header-mobile-flex img {
-  height: 17px;
-}
-
-@media screen and (min-width: 768px) {
-  .header-mobile {
-    display: none;
-  }
-}
-
 /* -------------------------- Header -------------------------- */
 
 .header {

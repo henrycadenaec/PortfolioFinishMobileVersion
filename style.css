@@ -19,6 +19,7 @@ body {
   margin: 0;
   font-family: var(--font);
   background-color: #e5e5e5;
+  overflow-x: hidden;
 }
 
 /* -------------------------- Header -------------------------- */
@@ -49,6 +50,11 @@ body {
   line-height: 20px;
   text-decoration: none;
   color: #6070ff;
+  transition: transform 2s;
+}
+
+.logo:hover {
+  transform: scale(1.2);
 }
 
 .burger-container {
@@ -143,6 +149,21 @@ main {
   gap: 12px;
 }
 
+.title-main {
+  animation-name: moving;
+  animation-duration: 3s;
+}
+
+@keyframes moving {
+  from {
+    transform: translateX(100px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
+}
+
 h1 {
   margin: 0;
   font-style: normal;
@@ -220,6 +241,18 @@ h4 {
     font-size: 20px;
     line-height: 28px;
     padding-bottom: 12px;
+    animation-name: moving-paragraph-main;
+    animation-duration: 3s;
+  }
+
+  @keyframes moving-paragraph-main {
+    from {
+      transform: translateX(100px);
+    }
+
+    to {
+      transform: translateX(0);
+    }
   }
 
   .h4-main-desktop {
@@ -349,6 +382,11 @@ p {
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  transition: transform 1s;
+}
+
+.btn-enable:hover {
+  transform: scale(1.1);
 }
 
 @media screen and (max-width: 768px) {
@@ -505,6 +543,7 @@ a {
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  transition: transform 1s;
 }
 
 .btn-enable-2:hover {
@@ -522,6 +561,7 @@ a {
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  transform: scale(1.1);
 }
 
 .btn-enable-2:focus {
@@ -754,6 +794,18 @@ a {
 
 .h2-white {
   color: #fff;
+  animation-name: moving-title;
+  animation-duration: 3s;
+}
+
+@keyframes moving-title {
+  from {
+    transform: translateX(100px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
 
 .about-paragraph {
@@ -764,6 +816,18 @@ a {
   line-height: 28px;
   color: #ebebff;
   margin-bottom: 52px;
+  animation-name: moving-title;
+  animation-duration: 3s;
+}
+
+@keyframes moving-title {
+  from {
+    transform: translateX(100px);
+  }
+
+  to {
+    transform: translateX(0);
+  }
 }
 
 .contact-form {
@@ -818,6 +882,7 @@ a {
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  transition: transform 1s;
 }
 
 .btn-enable-3:hover {
@@ -835,6 +900,7 @@ a {
   display: inline-block;
   cursor: pointer;
   text-align: center;
+  transform: scale(1.1);
 }
 
 .btn-enable-3:focus {

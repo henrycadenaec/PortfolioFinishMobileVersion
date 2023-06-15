@@ -15,20 +15,16 @@
   </head>
 
   <body>
-    <section class="header-mobile">
-      <p>9:41</p>
-      <div class="header-mobile-flex">
-        <img
-          src="assets/Cellular Connection.png"
-          alt="icon cellular connection"
-        />
-        <img src="assets/Wifi.png" alt="icon wifi" />
-        <img src="assets/Battery.png" alt="icon battery" />
-      </div>
-    </section>
     <header class="header">
       <section class="container-header">
         <a class="logo" href="#"> Henry Cadena </a>
+        <nav class="menu-desktop">
+          <ul class="menu-container">
+            <li><a class="font-style-menu" href="#portfolio">Portfolio</a></li>
+            <li><a class="font-style-menu" href="#about">About</a></li>
+            <li><a class="font-style-menu" href="#contact">Contact</a></li>
+          </ul>
+        </nav>
         <div class="burger-container">
           <label class="burger"></label>
           <label class="burger"></label>
@@ -40,14 +36,17 @@
     <main class="main">
       <section class="main-background-image">
         <aside class="main-background-setup">
-          <h1>I'm Henry Cadena. Glad to see you!</h1>
-          <p>
+          <h1>
+            I'm Henry Cadena. <br />
+            Glad to see you!
+          </h1>
+          <p class="paragraph-main-desktop">
             I'm a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
             what you see and have a project you need coded, don't hesitate to
             contact me.
           </p>
-          <h4>LET'S CONNECT</h4>
+          <h4 class="h4-main-desktop">LET'S CONNECT</h4>
           <article class="social-icons-container">
             <a href="#"
               ><img class="social-icons" src="assets/twitter.svg" alt="twitter"
@@ -72,7 +71,7 @@
       </section>
     </main>
 
-    <section class="grid">
+    <section class="grid-mobile">
       <aside>
         <article class="work-card-container">
           <img src="assets/Work1.png" alt="first project" />
@@ -109,7 +108,7 @@
               <li class="li-style">JavaScript</li>
             </ul>
           </div>
-          <button class="btn-enable">See project</button>
+          <button type="button" class="btn-enable">See project</button>
         </article>
       </aside>
 
@@ -234,78 +233,272 @@
       </aside>
     </section>
 
-    <section class="about">
-      <aside class="main-background-setup">
-        <h2 class="h2-size-40">About Myself</h2>
-        <p>
-          I'm a software developer! I can help you build a product , feature or
-          website Look through some of my work and experience! If you like what
-          you see and have a project you need coded, don't hesitate to contact
-          me.
-        </p>
-        <h4>LET'S CONNECT</h4>
-        <article class="social-icons-container">
-          <a href="#"
-            ><img class="social-icons" src="assets/twitter.svg" alt="twitter"
-          /></a>
-          <a href="#"
-            ><img class="social-icons" src="assets/linkedin.svg" alt="linkedin"
-          /></a>
-          <a href="#"
-            ><img class="social-icons" src="assets/m.svg" alt="m"
-          /></a>
-          <a href="#"
-            ><img class="social-icons" src="assets/github.svg" alt="github"
-          /></a>
-          <a href="#"
-            ><img class="social-icons" src="assets/peace.svg" alt="peace"
-          /></a>
+    <section class="grid">
+      <aside>
+        <article class="work-card-container grid-desktop">
+          <img class="work-img" src="assets/Tonic.png" alt="first project" />
+          <div class="information-card-desktop">
+            <h2 class="h2-text-style-works">Tonic</h2>
+            <div class="subtitle-card-container">
+              <p class="h4-text-style-works">CANOPY</p>
+              <ul class="ul-flex-features">
+                <li>
+                  <img
+                    class="icon-circle"
+                    src="assets/icon-circle.svg"
+                    alt="icon circle"
+                  />
+                </li>
+                <li>Back End Dev</li>
+                <li>
+                  <img
+                    class="icon-circle"
+                    src="assets/icon-circle.svg"
+                    alt="icon circle"
+                  />
+                </li>
+                <li>2015</li>
+              </ul>
+            </div>
+            <p class="paragraph-text-style-works">
+              A daily selection of privately personalized reads; no accounts or
+              sign-ups required.
+            </p>
+            <div>
+              <ul class="ul-stack-flex">
+                <li class="li-style">HTML</li>
+                <li class="li-style">CSS</li>
+                <li class="li-style">JavaScript</li>
+              </ul>
+            </div>
+            <button type="button" class="btn-enable">See project</button>
+          </div>
         </article>
-        <button class="btn-enable-2">Get my resume</button>
+      </aside>
 
-        <div class="flex-categories">
-          <a class="category-style" href="#">Languages</a>
-          <a href="#"
-            ><img
-              class="down-arrow"
-              src="assets/down-arrow.png"
-              alt="down arrow"
-          /></a>
-        </div>
-        <div class="flex-big-btn-li">
-          <ul class="big-btn-li">
-            <li>
-              <img src="assets/JavaScript.png" alt="javascript" />
-            </li>
-            <li>JavaScript</li>
-          </ul>
-          <ul class="big-btn-li">
-            <li><img src="assets/HMTL5.png" alt="javascript" /></li>
-            <li>HTML</li>
-          </ul>
-          <ul class="big-btn-li">
-            <li><img src="assets/CSS3.png" alt="javascript" /></li>
-            <li>CSS</li>
-          </ul>
-        </div>
-        <div class="flex-categories border-categories">
-          <a class="category-style" href="#">Frameworks</a>
-          <a href="#"
-            ><img
-              class="right-arrow"
-              src="assets/right-arrow.png"
-              alt="right arrow"
-          /></a>
-        </div>
-        <div class="flex-categories border-categories">
-          <a class="category-style" href="#">Skills</a>
-          <a href="#"
-            ><img
-              class="right-arrow"
-              src="assets/right-arrow.png"
-              alt="right arrow"
-          /></a>
-        </div>
+      <aside>
+        <article class="work-card-container grid-desktop">
+          <div class="information-card-desktop">
+            <h2>Multi-Post Stories</h2>
+            <div class="subtitle-card-container">
+              <p class="h4-text-style-works">FACEBOOK</p>
+              <ul class="ul-flex-features">
+                <li>
+                  <img
+                    class="icon-circle"
+                    src="assets/icon-circle.svg"
+                    alt="icon circle"
+                  />
+                </li>
+                <li>Full Stack Dev</li>
+                <li>
+                  <img
+                    class="icon-circle"
+                    src="assets/icon-circle.svg"
+                    alt="icon circle"
+                  />
+                </li>
+                <li>2015</li>
+              </ul>
+            </div>
+            <p class="paragraph-text-style-works">
+              Experimental content creation feature that allows users to add to
+              an existing story over the course of a day without spamming their
+              friends.
+            </p>
+            <div>
+              <ul class="ul-stack-flex">
+                <li class="li-style">html</li>
+                <li class="li-style">Ruby on rails</li>
+                <li class="li-style">css</li>
+                <li class="li-style">javaScript</li>
+              </ul>
+            </div>
+            <button type="button" class="btn-enable">See project</button>
+          </div>
+          <img
+            class="work-img"
+            src="assets/MultiPostStories.png"
+            alt="first project"
+          />
+        </article>
+      </aside>
+
+      <aside>
+        <article class="work-card-container grid-desktop">
+          <img
+            class="work-img"
+            src="assets/Facebook360.png"
+            alt="first project"
+          />
+          <div class="information-card-desktop">
+            <h2>Facebook 360</h2>
+            <div class="subtitle-card-container">
+              <p class="h4-text-style-works">FACEBOOK</p>
+              <ul class="ul-flex-features">
+                <li>
+                  <img
+                    class="icon-circle"
+                    src="assets/icon-circle.svg"
+                    alt="icon circle"
+                  />
+                </li>
+                <li>Full Stack Dev</li>
+                <li>
+                  <img
+                    class="icon-circle"
+                    src="assets/icon-circle.svg"
+                    alt="icon circle"
+                  />
+                </li>
+                <li>2015</li>
+              </ul>
+            </div>
+            <p class="paragraph-text-style-works">
+              Exploring the future of media in Facebook's first Virtual Reality
+              app; a place to discover and enjoy 360 photos and videos on Gear
+              VR.
+            </p>
+            <div>
+              <ul class="ul-stack-flex">
+                <li class="li-style">html</li>
+                <li class="li-style">Ruby on rails</li>
+                <li class="li-style">css</li>
+                <li class="li-style">javaScript</li>
+              </ul>
+            </div>
+            <button type="button" class="btn-enable">See project</button>
+          </div>
+        </article>
+      </aside>
+
+      <aside>
+        <article class="work-card-container grid-desktop">
+          <div class="information-card-desktop">
+            <h2>Uber Navigation</h2>
+            <div class="subtitle-card-container">
+              <p class="h4-text-style-works">Uber</p>
+              <ul class="ul-flex-features">
+                <li>
+                  <img
+                    class="icon-circle"
+                    src="assets/icon-circle.svg"
+                    alt="icon circle"
+                  />
+                </li>
+                <li>Lead Developer</li>
+                <li>
+                  <img
+                    class="icon-circle"
+                    src="assets/icon-circle.svg"
+                    alt="icon circle"
+                  />
+                </li>
+                <li>2015</li>
+              </ul>
+            </div>
+            <p class="paragraph-text-style-works">
+              A smart assistant to make driving more safe, efficient, and fun by
+              unlocking your most expensive computer: your car.
+            </p>
+            <div>
+              <ul class="ul-stack-flex">
+                <li class="li-style">html</li>
+                <li class="li-style">Ruby on rails</li>
+                <li class="li-style">css</li>
+                <li class="li-style">javaScript</li>
+              </ul>
+            </div>
+            <button type="button" class="btn-enable">See project</button>
+          </div>
+          <img
+            class="work-img"
+            src="assets/UberNavigation.png"
+            alt="first project"
+          />
+        </article>
+      </aside>
+    </section>
+
+    <section class="about">
+      <aside class="main-background-setup-about">
+        <article class="width-35">
+          <h2 class="h2-size-40">About Myself</h2>
+          <p class="paragraph-about-text-styles">
+            Hello I'm a software developer! I can help you build a product ,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don't
+            hesitate to contact me.
+          </p>
+          <h4>LET'S CONNECT</h4>
+          <article class="social-icons-container padding-top-social-icons">
+            <a href="#"
+              ><img class="social-icons" src="assets/twitter.svg" alt="twitter"
+            /></a>
+            <a href="#"
+              ><img
+                class="social-icons"
+                src="assets/linkedin.svg"
+                alt="linkedin"
+            /></a>
+            <a href="#"
+              ><img class="social-icons" src="assets/m.svg" alt="m"
+            /></a>
+            <a href="#"
+              ><img class="social-icons" src="assets/github.svg" alt="github"
+            /></a>
+            <a href="#"
+              ><img class="social-icons" src="assets/peace.svg" alt="peace"
+            /></a>
+          </article>
+          <button type="button" class="btn-enable-2">Get my resume</button>
+        </article>
+
+        <article class="width-65">
+          <div class="flex-categories">
+            <a class="category-style" href="#">Languages</a>
+            <a href="#"
+              ><img
+                class="down-arrow"
+                src="assets/down-arrow.png"
+                alt="down arrow"
+            /></a>
+          </div>
+          <div class="flex-big-btn-li">
+            <ul class="big-btn-li">
+              <li>
+                <img src="assets/JavaScript.png" alt="javascript" />
+              </li>
+              <li>JavaScript</li>
+            </ul>
+            <ul class="big-btn-li">
+              <li><img src="assets/HMTL5.png" alt="javascript" /></li>
+              <li>HTML</li>
+            </ul>
+            <ul class="big-btn-li">
+              <li><img src="assets/CSS3.png" alt="javascript" /></li>
+              <li>CSS</li>
+            </ul>
+          </div>
+          <div class="flex-categories border-categories">
+            <a class="category-style" href="#">Frameworks</a>
+            <a href="#"
+              ><img
+                class="right-arrow"
+                src="assets/right-arrow.png"
+                alt="right arrow"
+            /></a>
+          </div>
+          <div class="flex-categories border-categories">
+            <a class="category-style" href="#">Skills</a>
+            <a href="#"
+              ><img
+                class="right-arrow"
+                src="assets/right-arrow.png"
+                alt="right arrow"
+            /></a>
+          </div>
+        </article>
       </aside>
     </section>
 

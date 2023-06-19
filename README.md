@@ -2,7 +2,7 @@
 
 <div align="center">
   <br/>
-  <h3><b>Portfolio: finish mobile version</b></h3>
+  <h3><b>Portfolio</b></h3>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -30,9 +30,9 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio finish mobile version] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-**[Portfolio finish mobile version]** is only the first step to get an amazing portfolio. It shows a mobile version of my portfolio, in the future I'll add features, animations, and much more.
+**[Portfolio]** is only the first step to get an amazing portfolio. It showcases both: mobile version and desktop version of a portfolio, which has been updated with some transitions and animations.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -75,6 +75,13 @@
   </ul>
 </details>
 
+<details>
+  <summary>Deploy</summary>
+  <ul>
+    <li><a href="https://pages.github.com/">Github Pages</a></li>
+  </ul>
+</details>
+
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
@@ -83,7 +90,8 @@
 - **[Applying_Github_Flow]**
 - **[Applying_Professional_Documentation]**
 - **[Applying_HTML_basis]**
-- **[Applying_CSS_Flexbox]**
+- **[Applying_CSS_Flexbox_Transitions_Animations]**
+- **[Deploying_Github_Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,7 +99,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Coming_soon]
+- [https://henrycadenaec.github.io/PortfolioFinishMobileVersion/]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,7 +148,7 @@ Open the project folder in Visual Studio Code:
 
 ### Deployment
 
-- **[Coming_soon]**
+- **[Github Pages]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -158,9 +166,7 @@ Open the project folder in Visual Studio Code:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Add_sections]**
-- [ ] **[Add_desktop version]**
-- [ ] **[Add interactivity]**
+- [ ] **[Add_accesibility_features]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

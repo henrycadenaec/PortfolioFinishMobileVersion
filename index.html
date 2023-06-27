@@ -29,18 +29,23 @@
             <li><a class="font-style-menu" href="#contact">Contact</a></li>
           </ul>
         </nav>
-        <button class="hamburger" type="button">
-          <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-          </span>
-        </button>
-        <div class="burger-container">
-          <label class="burger"></label>
-          <label class="burger"></label>
-          <label class="burger"></label>
-        </div>
+        
       </section>
     </header>
+
+    <div class="burger-container">
+      <label class="burger shaping1-x"></label>
+      <label class="burger none-x"></label>
+      <label class="burger shaping2-x"></label>
+    </div>
+
+    <aside class="panel">
+      <nav class="menu">
+        <a class="menu-mobile" href="#portfolio-mobile">Portfolio</a>
+        <a class="menu-mobile" href="#about">About</a>
+        <a class="menu-mobile" href="#contact">Contact</a>
+      </nav>
+    </aside>
 
     <main class="main">
       <section class="main-background-image">
@@ -80,7 +85,7 @@
       </section>
     </main>
 
-    <section id="portfolio" class="grid-mobile">
+    <section id="portfolio-mobile" class="grid-mobile section">
       <aside>
         <article class="work-card-container">
           <img src="assets/Work1.png" alt="first project" />
@@ -242,7 +247,7 @@
       </aside>
     </section>
 
-    <section class="grid">
+    <section id="portfolio" class="grid">
       <aside>
         <article class="work-card-container grid-desktop">
           <img class="work-img" src="assets/Tonic.png" alt="first project" />
@@ -429,7 +434,7 @@
       </aside>
     </section>
 
-    <section id="about" class="about">
+    <section id="about" class="about section">
       <aside class="main-background-setup-about">
         <article class="width-35">
           <h2 class="h2-size-40">About Myself</h2>
@@ -511,7 +516,7 @@
       </aside>
     </section>
 
-    <section id="contact" class="contact">
+    <section id="contact" class="contact section">
       <div class="background-contact">
         <article class="main-background-image-contact">
           <aside class="main-background-setup-contact">
@@ -560,8 +565,10 @@
 
     <footer>
       <div class="footer-flex">
-        <aside class="micro"></aside>
+        <aside class="micro" type="modules"></aside>
       </div>
     </footer>
+
+    <script src="js/index.js"></script>
   </body>
 </html>

@@ -5,6 +5,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -28,7 +29,6 @@ body {
   position: sticky;
   left: 0;
   top: 0;
-  z-index: 999;
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
   padding-left: 1.5rem;
@@ -41,6 +41,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .logo {
@@ -58,13 +59,21 @@ body {
 }
 
 .burger-container {
-  width: 24px;
-  height: 24px;
+  z-index: 999;
+  position: fixed;
+  top: 16px;
+  right: 24px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 3px;
   cursor: pointer;
+  transition: transform 2s;
+}
+
+.burger-container:hover {
+  transform: scale(1.2);
 }
 
 .burger {
@@ -74,6 +83,24 @@ body {
   background-color: #6070ff;
   border-radius: 1px;
   cursor: pointer;
+}
+
+.shaping1-x.is-active {
+  transform-origin: 0 0;
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+  background-color: #fff;
+}
+
+.shaping2-x.is-active {
+  translate: -3px 1px;
+  transform: rotate(-45deg);
+  transition: transform 0.2s;
+  background-color: #fff;
+}
+
+.none-x.is-active {
+  display: none;
 }
 
 @media screen and (max-width: 769px) {
@@ -87,7 +114,6 @@ body {
     position: sticky;
     left: 0;
     top: 0;
-    z-index: 999;
     padding-top: 1.625rem;
     padding-bottom: 1.625rem;
     padding-left: 8.9375rem;
@@ -117,6 +143,57 @@ body {
   .menu-container > li {
     list-style: none;
   }
+}
+
+/* -------------------------- Panel -------------------------- */
+.panel {
+  position: fixed;
+  z-index: 998;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background-color: #6070ff;
+  opacity: 0.95;
+  transition: transform 0.3s ease;
+  transform: translate(100%, 0);
+
+  /* transition: transform 0.3s ease;
+  transform: translate(0, -100%); */
+}
+
+.panel.is-active {
+  transform: translate(0, 0);
+}
+
+.menu {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  margin: 0;
+  padding-top: 3rem;
+}
+
+.menu .menu-mobile {
+  padding: 1rem;
+  padding-left: 1.5rem;
+  width: inherit;
+  display: block;
+  font-size: 2rem;
+  line-height: 44px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.menu .menu-mobile:hover {
+  font-weight: 600;
+  color: #6070ff;
+  background-color: #fff;
 }
 
 /* -------------------------- Main -------------------------- */
